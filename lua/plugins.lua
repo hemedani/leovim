@@ -120,40 +120,37 @@ return require("packer").startup(function(use)
     require_plugin("TrueZen.nvim")
     require_plugin("nvim-ts-context-commentstring")
 
-    -- Extras
-    if O.extras then
-        use {'metakirby5/codi.vim', opt = true}
-        require_plugin('codi.vim')
-        use {'iamcco/markdown-preview.nvim', run = 'cd app && npm install', opt = true}
-        require_plugin('markdown-preview.nvim')
-        use {'numToStr/FTerm.nvim', opt = true}
-        require_plugin('numToStr/FTerm.nvim')
-        use {'monaqa/dial.nvim', opt = true}
-        require_plugin('dial.nvim')
-        use {'nacro90/numb.nvim', opt = true}
-        require_plugin('numb.nvim')
-        use {'turbio/bracey.vim', opt = true}
-        require_plugin('bracey.vim')
-        use {'phaazon/hop.nvim', opt = true}
-        require_plugin('hop.nvim')
-        use {'norcalli/nvim-colorizer.lua', opt = true}
-        require_plugin('nvim-colorizer.lua')
-        use {'windwp/nvim-spectre', opt = true}
-        require_plugin('windwp/nvim-spectre')
-        -- folke/todo-comments.nvim
-        -- gennaro-tedesco/nvim-jqx
-        -- TimUntersberger/neogit
-        -- folke/lsp-colors.nvim
-        -- simrat39/symbols-outline.nvim
+    use {'metakirby5/codi.vim', opt = true}
+    require_plugin('codi.vim')
+    use {'iamcco/markdown-preview.nvim', run = 'cd app && npm install', opt = true}
+    require_plugin('markdown-preview.nvim')
+    use {'numToStr/FTerm.nvim', opt = true}
+    require_plugin('numToStr/FTerm.nvim')
+    use {'monaqa/dial.nvim', opt = true}
+    require_plugin('dial.nvim')
+    use {'nacro90/numb.nvim', opt = true}
+    require_plugin('numb.nvim')
+    use {'turbio/bracey.vim', opt = true}
+    require_plugin('bracey.vim')
+    use {'phaazon/hop.nvim', opt = true}
+    require_plugin('hop.nvim')
+    use {'norcalli/nvim-colorizer.lua', opt = true}
+    require_plugin('nvim-colorizer.lua')
+    use {'windwp/nvim-spectre', opt = true}
+    require_plugin('windwp/nvim-spectre')
+    -- folke/todo-comments.nvim
+    -- gennaro-tedesco/nvim-jqx
+    -- TimUntersberger/neogit
+    -- folke/lsp-colors.nvim
+    -- simrat39/symbols-outline.nvim
 
-        -- Git
-        -- use {'tpope/vim-fugitive', opt = true}
-        -- use {'tpope/vim-rhubarb', opt = true}
-        -- pwntester/octo.nvim
+    -- Git
+    -- use {'tpope/vim-fugitive', opt = true}
+    -- use {'tpope/vim-rhubarb', opt = true}
+    -- pwntester/octo.nvim
 
-        -- Easily Create Gists
-        -- use {'mattn/vim-gist', opt = true}
-        -- use {'mattn/webapi-vim', opt = true}
-    end
+    -- Easily Create Gists
+    -- use {'mattn/vim-gist', opt = true}
+    -- use {'mattn/webapi-vim', opt = true}
 
 end)

@@ -25,14 +25,10 @@ require('lv-lsp-rooter')
 require('lv-zen')
 
 -- extras
-if O.extras then
-    require('lv-numb')
-    require('lv-dial')
-    require('lv-hop')
-    require('lv-colorizer')
-end
-
-
+require('lv-numb')
+require('lv-dial')
+require('lv-hop')
+require('lv-colorizer')
 
 -- TODO is there a way to do this without vimscript
 vim.cmd('source '..CONFIG_PATH..'/vimscript/functions.vim')
@@ -53,6 +49,7 @@ require('lsp.go-ls')
 require('lsp.html-ls')
 require('lsp.json-ls')
 require('lsp.js-ts-ls')
+require('lsp.deno-ls')
 require('lsp.kotlin-ls')
 require('lsp.latex-ls')
 require('lsp.lua-ls')
