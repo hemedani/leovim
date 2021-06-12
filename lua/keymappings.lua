@@ -36,6 +36,10 @@ vim.api.nvim_set_keymap('i', 'jk', '<esc>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', 'kj', '<ESC>', {noremap = true, silent = true})
 vim.api.nvim_set_keymap('i', 'jj', '<ESC>', {noremap = true, silent = true})
 
+-- i hate escape
+vim.api.nvim_set_keymap('v', 'jk', '<esc>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('v', 'kj', '<ESC>', {noremap = true, silent = true})
+
 -- copy past on neovide
 vim.api.nvim_set_keymap('i', '<D-v>', '<C-r>+', {noremap = true, silent = true})
 
