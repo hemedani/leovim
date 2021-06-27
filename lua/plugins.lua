@@ -130,7 +130,7 @@ return require("packer").startup(function(use)
     require_plugin('dial.nvim')
     use {'nacro90/numb.nvim', opt = true}
     require_plugin('numb.nvim')
-    use {'turbio/bracey.vim', opt = true}
+    use {'turbio/bracey.vim', opt = true, run="npm install --prefix server"}
     require_plugin('bracey.vim')
     use {'phaazon/hop.nvim', opt = true}
     require_plugin('hop.nvim')
