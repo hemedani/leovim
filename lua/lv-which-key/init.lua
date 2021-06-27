@@ -149,7 +149,11 @@ local mappings = {
         s = {"<cmd>TZBottom<cr>", "toggle status line"},
         t = {"<cmd>TZTop<cr>", "toggle tab bar"},
         z = {"<cmd>TZAtaraxis<cr>", "toggle zen"},
-    }
+    },
+    b = {
+        name = "+buffers",
+        w = {":%bd|e#|bd#", "delete other buffers"}
+    } 
 }
 
 local wk = require("which-key")
