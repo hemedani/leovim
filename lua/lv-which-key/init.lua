@@ -128,6 +128,12 @@ local mappings = {
         s = {"<cmd>Telescope lsp_document_symbols<cr>", "Document Symbols"},
         S = {"<cmd>Telescope lsp_workspace_symbols<cr>", "Workspace Symbols"}
     },
+    L = {
+        name = "+Live Server",
+        l = {"<cmd>Bracey<cr>", "Start Live Server"},
+        s = {"<cmd>BraceyStop<cr>", "Stop Live Server"},
+        r = {"<cmd>BraceyReload<cr>", "Reload Live Server"},
+    },
     s = {
         name = "+Search",
         b = {"<cmd>Telescope git_branches<cr>", "Checkout branch"},
