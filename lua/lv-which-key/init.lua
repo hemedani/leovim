@@ -158,7 +158,7 @@ local mappings = {
     },
     b = {
         name = "+buffers",
-        w = {":%bd|e#|bd#", "delete other buffers"}
+        w = {"<cmd>%bd|e#|bd#<cr>", "delete/wipe other buffers"}
     } 
 }
 
